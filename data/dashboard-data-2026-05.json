@@ -1,0 +1,378 @@
+{
+  "salesCard": {
+    "value": "$1,695K",
+    "yoy": "99%",
+    "salesShare": "매출비중 100%",
+    "channelDetails": [
+      {
+        "name": "US홀세일",
+        "value": "79",
+        "yoy": "109%",
+        "percent": "5%"
+      },
+      {
+        "name": "US EC",
+        "value": "1,578",
+        "yoy": "106%",
+        "percent": "93%"
+      },
+      {
+        "name": "EU EC",
+        "value": "33",
+        "yoy": "39%",
+        "percent": "2%"
+      },
+      {
+        "name": "라이선스/기타",
+        "value": "5",
+        "yoy": "10%",
+        "percent": "0%"
+      }
+    ],
+    "itemDetails": [
+      {
+        "name": "26SS",
+        "value": "734",
+        "yoy": "58%",
+        "percent": "43%"
+      },
+      {
+        "name": "25FW",
+        "value": "560",
+        "yoy": "199%",
+        "percent": "33%"
+      },
+      {
+        "name": "25SS",
+        "value": "284",
+        "yoy": "380%",
+        "percent": "17%"
+      },
+      {
+        "name": "FW과시즌",
+        "value": "50",
+        "yoy": "1061%",
+        "percent": "3%"
+      },
+      {
+        "name": "SS과시즌",
+        "value": "7",
+        "yoy": "1371%",
+        "percent": "0%"
+      },
+      {
+        "name": "CORE",
+        "value": "59",
+        "yoy": "115%",
+        "percent": "4%"
+      }
+    ]
+  },
+  "profitCard": {
+    "value": "$276K",
+    "yoy": "49%",
+    "profitMargin": "이익률 16.3%",
+    "channelProfitDetails": [
+      {
+        "name": "US홀세일",
+        "value": "23",
+        "yoy": "230%",
+        "margin": "29.1%"
+      },
+      {
+        "name": "US EC",
+        "value": "244",
+        "yoy": "48%",
+        "margin": "19.1%"
+      },
+      {
+        "name": "EU EC",
+        "value": "3",
+        "yoy": "흑자전환",
+        "margin": "9.4%"
+      },
+      {
+        "name": "라이선스/기타",
+        "value": "5",
+        "yoy": "10%",
+        "margin": "100%"
+      }
+    ],
+    "directProfitYtdDetails": [
+      {
+        "name": "US홀세일",
+        "value": "185",
+        "percent": "52%",
+        "margin": "42.2%",
+        "change": "-1.0%p"
+      },
+      {
+        "name": "US EC",
+        "value": "817",
+        "percent": "47%",
+        "margin": "14.3%",
+        "change": "-14.1%p"
+      },
+      {
+        "name": "EU EC",
+        "value": "-5",
+        "percent": "적자",
+        "margin": "적자",
+        "change": "-7.1%p"
+      },
+      {
+        "name": "라이선스/기타",
+        "value": "238",
+        "percent": "46%",
+        "margin": "100%",
+        "change": "+0%p"
+      }
+    ]
+  },
+  "expenseCard": {
+    "value": "$457K",
+    "yoy": "84%",
+    "operatingExpenseRatio": "영업비율 33%",
+    "expenseBreakdown": [
+      {
+        "name": "인건비",
+        "value": "318",
+        "yoy": "81%",
+        "subItems": [
+          {
+            "name": "급여(정규/계약)",
+            "value": "263",
+            "yoy": "86%"
+          },
+          {
+            "name": "보험,복지비등",
+            "value": "54",
+            "yoy": "61%"
+          }
+        ]
+      },
+      {
+        "name": "광고선전비",
+        "value": "14",
+        "yoy": "23%"
+      },
+      {
+        "name": "지급수수료",
+        "value": "60",
+        "yoy": "28%"
+      },
+      {
+        "name": "식대/출장비",
+        "value": "4",
+        "yoy": "35%"
+      },
+      {
+        "name": "임차료",
+        "value": "24",
+        "yoy": "100%"
+      },
+      {
+        "name": "샘플비/개발비",
+        "value": "7",
+        "yoy": "318%"
+      },
+      {
+        "name": "감가상각비",
+        "value": "7",
+        "yoy": "100%"
+      },
+      {
+        "name": "기타비용",
+        "value": "23",
+        "yoy": "213%"
+      }
+    ]
+  },
+  "discountCard": {
+    "value": "52.4%",
+    "yoy": "+17.3%p",
+    "channelDetails": [
+      {
+        "name": "US홀세일",
+        "value": "62.2%",
+        "yoy": "-6.9%p",
+        "percent": ""
+      },
+      {
+        "name": "US EC",
+        "value": "51.9%",
+        "yoy": "+20.6%p",
+        "percent": ""
+      },
+      {
+        "name": "EU EC",
+        "value": "45.7%",
+        "yoy": "+11.5%p",
+        "percent": ""
+      }
+    ],
+    "itemDetails": [
+      {
+        "name": "26SS",
+        "value": "27.90%",
+        "yoy": "+3.8%p",
+        "percent": ""
+      },
+      {
+        "name": "25FW",
+        "value": "56.60%",
+        "yoy": "+7.7%p",
+        "percent": ""
+      },
+      {
+        "name": "25SS",
+        "value": "68.80%",
+        "yoy": "+14.3%p",
+        "percent": ""
+      },
+      {
+        "name": "FW과시즌",
+        "value": "68.90%",
+        "yoy": "+1.0%p",
+        "percent": ""
+      },
+      {
+        "name": "SS과시즌",
+        "value": "72.60%",
+        "yoy": "+2.9%p",
+        "percent": ""
+      },
+      {
+        "name": "CORE",
+        "value": "-1.40%",
+        "yoy": "-3.9%p",
+        "percent": ""
+      }
+    ]
+  },
+  "metricCards": {
+    "salesRate": {
+      "value": "12.20%",
+      "subValue": "전년 11.70%",
+      "subValueColor": "text-red-500",
+      "description": "YoY 0.50%",
+      "itemDetails": [
+        {
+          "name": "Track Jacket",
+          "value": "3,330",
+          "share": "43%",
+          "rate": "12.1%",
+          "prevRate": "9.2%"
+        },
+        {
+          "name": "Track Pant",
+          "value": "2,133",
+          "share": "33%",
+          "rate": "14.5%",
+          "prevRate": "8.9%"
+        },
+        {
+          "name": "Total",
+          "value": "14,601",
+          "share": "49.2%",
+          "rate": "12.2%",
+          "prevRate": "11.7%"
+        }
+      ]
+    },
+    "mu": {
+      "value": "5.4",
+      "subValue": "전년대비 0.1",
+      "subValueColor": "text-red-500",
+      "description": "YoY 102%",
+      "topStoresDetails": [
+        {
+          "name": "Track Jacket",
+          "value": "5.3",
+          "yoy": "(전년5.5)"
+        },
+        {
+          "name": "Track Pant",
+          "value": "5.9",
+          "yoy": "(전년5.5)"
+        },
+        {
+          "name": "Hoodie",
+          "value": "4.8",
+          "yoy": "(전년4.8)"
+        },
+        {
+          "name": "T-Shirt",
+          "value": "5.6",
+          "yoy": "(전년5.8)"
+        },
+        {
+          "name": "Short",
+          "value": "5.5",
+          "yoy": "(전년5.1)"
+        }
+      ]
+    },
+    "inventory": {
+      "value": "$29,813K",
+      "subValue": "전년 $31,389K",
+      "subValueColor": "text-green-500",
+      "description": "YoY 95%",
+      "topStoresDetails": [
+        {
+          "name": "26SS",
+          "value": "11,708",
+          "yoy": "(전년52% [-10,729])"
+        },
+        {
+          "name": "25FW",
+          "value": "12,617",
+          "yoy": "(전년219% [6,863])"
+        },
+        {
+          "name": "25SS",
+          "value": "3,988",
+          "yoy": "(전년371% [+2,914])"
+        },
+        {
+          "name": "FW과시즌",
+          "value": "579",
+          "yoy": "(전년111% [+59])"
+        },
+        {
+          "name": "SS과시즌",
+          "value": "109",
+          "yoy": "(전년188% [+51])"
+        },
+        {
+          "name": "CORE",
+          "value": "812",
+          "yoy": "(전년53% [-734])"
+        }
+      ]
+    },
+    "headcount": {
+      "value": "25명",
+      "subValue": "전년 27명",
+      "subValueColor": "text-green-500",
+      "description": "YoY 93% 정규20,계약5명",
+      "statsDetails": [
+        {
+          "name": "인당 인건비",
+          "value": "11",
+          "yoy": "93%"
+        },
+        {
+          "name": "인당 매출액",
+          "value": "69",
+          "yoy": "111%"
+        },
+        {
+          "name": "인당 영업비",
+          "value": "18",
+          "yoy": "90%"
+        }
+      ]
+    }
+  }
+}
