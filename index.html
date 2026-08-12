@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>STO 브랜드 2026년 6월 경영 보고서</title>
+  <title>STO 브랜드 2026년 7월 경영 보고서</title>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
   <style>
     * { margin:0; padding:0; box-sizing:border-box; }
@@ -55,7 +55,7 @@
     .up   { color:#276749; }
     .down { color:#c53030; }
 
-    .season-grid { display:grid; grid-template-columns:repeat(5,1fr); gap:4px; margin-bottom:10px; }
+    .season-grid { display:grid; grid-template-columns:repeat(6,1fr); gap:4px; margin-bottom:10px; }
     .season-card { background:#fff; border:1px solid #e2e8f0; border-radius:4px; overflow:hidden; }
     .season-head { background:#2d3748; color:#fff; font-size:10px; font-weight:bold; padding:4px; text-align:center; letter-spacing:0.3px; }
     .season-body { padding:6px 7px; }
@@ -101,109 +101,126 @@
 
   <div class="header">
     <div class="header-left">
-      <h1>STO 브랜드 2026년 6월 경영 보고서</h1>
-      <p>F&amp;F · 보고기간: 2026년 6월 당월 / YTD(1~6월 누적) · 단위: K USD · 비교기준: 전년동월(2025년 6월) YoY</p>
+      <h1>STO 브랜드 2026년 7월 경영 보고서</h1>
+      <p>F&amp;F · 보고기간: 2026년 7월 당월 / YTD(1~7월 누적) · 단위: K USD · 비교기준: 전년동월(2025년 7월) YoY</p>
     </div>
     <div class="header-right">
-      <div class="big-num">1,344 <span>K USD (6월 당월 실판매출)</span></div>
+      <div class="big-num">1,374 <span>K USD (7월 당월 실판매출)</span></div>
       <div class="sub">
-        당월 YoY <span class="badge-down" style="font-size:8px;">79%</span>&nbsp;
-        직접이익 96K <span class="badge-down" style="font-size:8px;">YoY 17%</span>&nbsp;
-        영업비 700K <span class="badge-down" style="font-size:8px;">YoY 111%↑</span>&nbsp;
-        영업이익 <span class="badge-down" style="font-size:8px;">-604K 적자</span>
+        당월 YoY <span class="badge-down" style="font-size:8px;">84%</span>&nbsp;
+        직접이익 137K <span class="badge-down" style="font-size:8px;">YoY 33%</span>&nbsp;
+        영업비 551K <span class="badge-up" style="font-size:8px;">YoY 87%↓</span>&nbsp;
+        영업이익 <span class="badge-down" style="font-size:8px;">-414K 적자</span>
       </div>
     </div>
   </div>
 
   <div class="page-title" id="sec1">1. KPI 요약 (당월 vs 전년동월)</div>
-  <div class="kpi-grid">
+  <div class="kpi-grid" style="grid-template-columns:repeat(6,1fr);">
+    <div class="kpi-box highlight">
+      <div class="kpi-label">MSRP 정가매출</div>
+      <div class="kpi-value" style="font-size:11px;">2,969K</div>
+      <div class="kpi-change down">YoY 93% (전년 3,193K)</div>
+    </div>
     <div class="kpi-box">
       <div class="kpi-label">실판매출 당월</div>
-      <div class="kpi-value" style="font-size:11px;">1,344K</div>
-      <div class="kpi-change down">YoY 79% (전년 1,702K)</div>
+      <div class="kpi-value" style="font-size:11px;">1,374K</div>
+      <div class="kpi-change down">YoY 84% (전년 1,636K)</div>
     </div>
     <div class="kpi-box">
       <div class="kpi-label">직접이익 당월</div>
-      <div class="kpi-value" style="font-size:11px;">96K</div>
-      <div class="kpi-change down">YoY 17% · 이익률 7.1%</div>
+      <div class="kpi-value" style="font-size:11px;">137K</div>
+      <div class="kpi-change down">YoY 33% · 이익률 10%</div>
     </div>
     <div class="kpi-box">
       <div class="kpi-label">기말재고</div>
-      <div class="kpi-value" style="font-size:11px;">$26,067K</div>
-      <div class="kpi-change up">전년 $29,037K · YoY 90%</div>
+      <div class="kpi-value" style="font-size:11px;">$30,352K</div>
+      <div class="kpi-change down">전년 $34,103K · YoY 89%</div>
     </div>
     <div class="kpi-box warning">
       <div class="kpi-label">할인율 당월</div>
-      <div class="kpi-value" style="font-size:11px;">49.2%</div>
-      <div class="kpi-change down">YoY +11.0%p ▲ (5월 52.4%→소폭개선)</div>
+      <div class="kpi-value" style="font-size:11px;">54.8%</div>
+      <div class="kpi-change down">YoY +4.7%p ▲ (6월 49.2%→악화)</div>
     </div>
     <div class="kpi-box">
       <div class="kpi-label">영업비 당월</div>
-      <div class="kpi-value" style="font-size:11px;">700K</div>
-      <div class="kpi-change down">YoY 111%↑ (전년 631K)</div>
+      <div class="kpi-value" style="font-size:11px;">551K</div>
+      <div class="kpi-change up">YoY 87%↓ (전년 633K)</div>
     </div>
   </div>
 
   <div class="sub-title">📊 시즌별 실판매출 및 할인율 (K USD)</div>
   <div class="season-grid">
     <div class="season-card">
+      <div class="season-head">26FW</div>
+      <div class="season-body">
+        <div class="season-lbl">실판매출</div>
+        <div class="season-val">37K</div>
+        <div class="season-yoy down">YoY 58% (신시즌)</div>
+        <div class="season-sep"></div>
+        <div class="season-lbl">할인율</div>
+        <div class="season-val up">49.3%</div>
+        <div class="season-yoy up">전년대비 -4.7%p 개선</div>
+      </div>
+    </div>
+    <div class="season-card">
       <div class="season-head">26SS</div>
       <div class="season-body">
         <div class="season-lbl">실판매출</div>
-        <div class="season-val">754K</div>
-        <div class="season-yoy down">YoY 56%</div>
+        <div class="season-val">693K</div>
+        <div class="season-yoy down">YoY 75%</div>
         <div class="season-sep"></div>
         <div class="season-lbl">할인율</div>
-        <div class="season-val down">32.6%</div>
-        <div class="season-yoy up">전년대비 -0.9%p 개선</div>
+        <div class="season-val down">47.5%</div>
+        <div class="season-yoy down">전년대비 +10.0%p</div>
       </div>
     </div>
     <div class="season-card">
       <div class="season-head">25FW</div>
       <div class="season-body">
         <div class="season-lbl">실판매출</div>
-        <div class="season-val">313K</div>
-        <div class="season-yoy up">YoY 152%</div>
+        <div class="season-val">293K</div>
+        <div class="season-yoy down">YoY 67%</div>
         <div class="season-sep"></div>
         <div class="season-lbl">할인율</div>
-        <div class="season-val down">54.1%</div>
-        <div class="season-yoy down">전년대비 +4.4%p</div>
+        <div class="season-val down">58.5%</div>
+        <div class="season-yoy up">전년대비 -5.8%p 개선</div>
       </div>
     </div>
     <div class="season-card">
       <div class="season-head">25SS</div>
       <div class="season-body">
         <div class="season-lbl">실판매출</div>
-        <div class="season-val">176K</div>
-        <div class="season-yoy up">YoY 269%</div>
+        <div class="season-val">229K</div>
+        <div class="season-yoy up">YoY 360%</div>
         <div class="season-sep"></div>
         <div class="season-lbl">할인율</div>
-        <div class="season-val down">68.9%</div>
-        <div class="season-yoy down">전년대비 +15.4%p</div>
+        <div class="season-val down">66.3%</div>
+        <div class="season-yoy down">전년대비 +5.2%p</div>
+      </div>
+    </div>
+    <div class="season-card">
+      <div class="season-head">과시즌</div>
+      <div class="season-body">
+        <div class="season-lbl">실판매출</div>
+        <div class="season-val">46K</div>
+        <div class="season-yoy up">YoY 325%</div>
+        <div class="season-sep"></div>
+        <div class="season-lbl">할인율</div>
+        <div class="season-val down">60.1%</div>
+        <div class="season-yoy up">전년대비 -3.3%p 개선</div>
       </div>
     </div>
     <div class="season-card">
       <div class="season-head">CORE</div>
       <div class="season-body">
         <div class="season-lbl">실판매출</div>
-        <div class="season-val">27K</div>
-        <div class="season-yoy down">YoY 55%</div>
+        <div class="season-val">17K</div>
+        <div class="season-yoy down">YoY 44%</div>
         <div class="season-sep"></div>
         <div class="season-lbl">할인율</div>
-        <div class="season-val up">-6.8%</div>
-        <div class="season-yoy up">전년대비 -11.1%p 개선</div>
-      </div>
-    </div>
-    <div class="season-card">
-      <div class="season-head">FW과시즌</div>
-      <div class="season-body">
-        <div class="season-lbl">실판매출</div>
-        <div class="season-val">23K</div>
-        <div class="season-yoy up">YoY 598%</div>
-        <div class="season-sep"></div>
-        <div class="season-lbl">할인율</div>
-        <div class="season-val down">69.7%</div>
-        <div class="season-yoy down">전년대비 +7.3%p</div>
+        <div class="season-val up">-6.3%</div>
+        <div class="season-yoy up">전년대비 -16.5%p 개선</div>
       </div>
     </div>
   </div>
@@ -211,24 +228,24 @@
   <div class="container">
     <div class="left">
       <div class="box box-green">
-        <div class="box-title green">✅ 6월 긍정 시그널 — 의미있는 변화 (AI 인사이트)</div>
+        <div class="box-title green">✅ 7월 긍정 시그널 — 의미있는 변화 (AI 인사이트)</div>
         <ul>
-          <li><b>US홀세일 YoY 127% 반등</b> — 47K, 이익률 19.9%. YTD 6개월 누적 194K, 마진 40% — 할인율 69.3%(-8.3%p 개선)으로 가장 안정적 수익 채널 확인</li>
-          <li><b>EU EC 이익률 23.3%로 개선</b> — 8K. 5월 9.4%에서 크게 반등. YTD 4K로 누적 흑자 전환(5월 YTD -5K → 6월 +4K) — EU 채널 회복 추세 가시화</li>
-          <li><b>판매율 19.2%(전년 17.8%, +1.4%p 개선)</b> — Track Jacket +8.3%p, Track Pant +8.2%p로 주력 아이템 회전율 향상. 재고 소진 속도 가속</li>
-          <li><b>CORE -6.8% 할인율 — 정가 이상 판매 유지</b> — 이익률 최고 수준 유지. YoY -11.1%p 추가 개선. 전년 대비 브랜드 가격 방어력 강화</li>
-          <li><b>총재고 $26,067K(YoY 90%)</b> — 5월 $29,813K에서 $3,746K 감소. FW과시즌(YoY 598%)·SS과시즌(YoY 1,688%) 이월 소진 가속. 재고 건전화 추세 유지</li>
+          <li><b>US홀세일 YoY 194% 급반등</b> — 122K, 이익률 24.5%. 전년 63K에서 2배 이상 성장. 전채널 최고 이익률 달성. 할인율 33.2%(-38.3%p 대폭 개선)으로 가격 방어력 회복</li>
+          <li><b>영업비 551K(YoY 87%) — 6월 700K 대비 149K 절감</b> — 6월 IWD(재고감액) 일회성 비용 소멸. 광고선전비 20K(전월 102K 대비 82K 절감)가 주도</li>
+          <li><b>판매율 39.3%(전년 34.2%, +5.1%p 개선)</b> — Track Jacket +15.7%p, Track Pant +18.1%p. 주력 아이템 회전율 대폭 가속. 재고 소진 속도 전년 대비 최고</li>
+          <li><b>CORE 할인율 -6.3%(-16.5%p 개선) — 정가 이상 판매 강화</b> — 전년보다 더 높은 가격에 판매. EU EC 할인율 13.6%(-30.0%p 대폭 개선)도 동반 회복</li>
+          <li><b>26FW 신시즌 출시</b> — 37K 초기 매출. MSRP $2,969K(YoY 93%) 정가 볼륨 회복 가시화</li>
         </ul>
       </div>
     </div>
     <div class="right">
       <div class="box box-red">
-        <div class="box-title red">⚠️ 6월 구조적 우려 — 숨은 시그널 (AI 인사이트)</div>
+        <div class="box-title red">⚠️ 7월 구조적 우려 — 숨은 시그널 (AI 인사이트)</div>
         <ul>
-          <li><b>직접이익 96K(YoY 17%), 이익률 7.1% — 수익성 붕괴 수준</b> — 전년 565K에서 469K 급감. US EC 이익률 2.8%(34K/1,218K) = 핵심 채널 수익성 구조적 붕괴</li>
-          <li><b>Inventory Write-Down 158K 발생</b> — 기타비용 136K(YoY 550%) 급증의 주원인. 25FW·25SS 재고 가치 손상 현실화. 재고 과잉의 실질 비용이 손익에 반영되기 시작</li>
-          <li><b>영업비 700K(YoY 111%) — 광고비 102K·수수료 96K 급증</b> — 5월 459K에서 241K 폭증. 영업비율 52% = 매출의 절반 이상이 비용으로 소진</li>
-          <li><b>영업이익 -604K 상반기 최대 적자</b> — 4월 -320K → 5월 -183K로 개선세였으나 6월 -604K로 급반전. 직접이익 감소(-180K)와 영업비 급증(+241K) 동시 타격</li>
+          <li><b>직접비용 602K(YoY 106%) — SEM광고비 271K 급증</b> — 직접비율 43.8%(전년 34.7%). SEM 광고비가 직접비용의 45% 차지. 광고 투자 대비 직접이익 10%는 ROI 붕괴 수준</li>
+          <li><b>영업이익 -414K 적자 지속</b> — 영업비 551K가 직접이익 137K의 4배. 흑자전환 위해선 직접이익 2배 이상 증가 또는 영업비 50% 절감 필요</li>
+          <li><b>재고 $30,352K — 6월 26,067K에서 역증가</b> — 26FW 신시즌 입고로 4,285K 재확대. 25FW 10,804K(YoY 257%)가 이월 부담 최대. 총재고의 44%가 이월</li>
+          <li><b>US EC 이익률 3.7%(YoY 16%) — 핵심 채널 수익성 붕괴 지속</b> — 매출 85% 채널의 마진 3.7%. 할인율 56.7%(+7.8%p)로 추가 악화. 하반기 정상화 전략 시급</li>
         </ul>
       </div>
     </div>
@@ -250,38 +267,38 @@
       <th>채널</th><th class="num">당월</th><th class="num">YoY</th><th class="num">평가</th>
     </tr>
     <tr style="font-weight:bold;background:#f0f4f8;">
-      <td>합계</td><td class="num">1,344</td><td class="num" style="color:#718096;">1,702</td><td class="num"><span class="badge-down">79%</span></td><td class="num grp">100%</td>
-      <td>합계</td><td class="num">1,344</td><td class="num"><span class="badge-down">79%</span></td><td class="num grp">100%</td>
-      <td>전체</td><td class="num">49.2%</td><td class="num"><span class="badge-down">+11.0%p</span></td><td>상승</td>
+      <td>합계</td><td class="num">1,374</td><td class="num" style="color:#718096;">1,636</td><td class="num"><span class="badge-down">84%</span></td><td class="num grp">100%</td>
+      <td>합계</td><td class="num">1,374</td><td class="num"><span class="badge-down">84%</span></td><td class="num grp">100%</td>
+      <td>전체</td><td class="num">54.8%</td><td class="num"><span class="badge-down">+4.7%p</span></td><td>상승</td>
     </tr>
     <tr style="background:#ebf8ff;">
-      <td>US EC</td><td class="num">1,218</td><td class="num" style="color:#718096;">1,562</td><td class="num"><span class="badge-down">78%</span></td><td class="num grp">91%</td>
-      <td>26SS</td><td class="num">754</td><td class="num"><span class="badge-down">56%</span></td><td class="num grp">56%</td>
-      <td>US홀세일</td><td class="num">69.3%</td><td class="num"><span class="badge-up">-8.3%p</span></td><td>개선</td>
+      <td>US EC</td><td class="num">1,167</td><td class="num" style="color:#718096;">1,389</td><td class="num"><span class="badge-down">84%</span></td><td class="num grp">85%</td>
+      <td>26FW</td><td class="num">37</td><td class="num"><span class="badge-down">58%</span></td><td class="num grp">3%</td>
+      <td>US홀세일</td><td class="num">33.2%</td><td class="num"><span class="badge-up">-38.3%p</span></td><td>대폭개선</td>
     </tr>
     <tr>
-      <td>US홀세일</td><td class="num">47</td><td class="num" style="color:#718096;">37</td><td class="num"><span class="badge-up">127%</span></td><td class="num grp">3%</td>
-      <td>25FW</td><td class="num">313</td><td class="num"><span class="badge-up">152%</span></td><td class="num grp">23%</td>
-      <td>US EC</td><td class="num">48.4%</td><td class="num"><span class="badge-down">+13.0%p</span></td><td>급등▲</td>
+      <td>US홀세일</td><td class="num">122</td><td class="num" style="color:#718096;">63</td><td class="num"><span class="badge-up">194%</span></td><td class="num grp">9%</td>
+      <td>26SS</td><td class="num">693</td><td class="num"><span class="badge-down">75%</span></td><td class="num grp">53%</td>
+      <td>US EC</td><td class="num">56.7%</td><td class="num"><span class="badge-down">+7.8%p</span></td><td>급등▲</td>
     </tr>
     <tr>
-      <td>EU EC</td><td class="num">35</td><td class="num" style="color:#718096;">69</td><td class="num"><span class="badge-down">51%</span></td><td class="num grp">3%</td>
-      <td>25SS</td><td class="num">176</td><td class="num"><span class="badge-up">269%</span></td><td class="num grp">13%</td>
-      <td>EU EC</td><td class="num">18.7%</td><td class="num"><span class="badge-up">-19.1%p</span></td><td>대폭개선</td>
+      <td>EU EC</td><td class="num">26</td><td class="num" style="color:#718096;">87</td><td class="num"><span class="badge-down">30%</span></td><td class="num grp">2%</td>
+      <td>25FW</td><td class="num">293</td><td class="num"><span class="badge-down">67%</span></td><td class="num grp">22%</td>
+      <td>EU EC</td><td class="num">13.6%</td><td class="num"><span class="badge-up">-30.0%p</span></td><td>대폭개선</td>
     </tr>
     <tr>
-      <td>라이선스/기타</td><td class="num">44</td><td class="num" style="color:#718096;">38</td><td class="num"><span class="badge-up">117%</span></td><td class="num grp">3%</td>
-      <td>CORE</td><td class="num">27</td><td class="num"><span class="badge-down">55%</span></td><td class="num grp">2%</td>
+      <td>라이선스/기타</td><td class="num">57</td><td class="num" style="color:#718096;">97</td><td class="num"><span class="badge-down">59%</span></td><td class="num grp">4%</td>
+      <td>25SS</td><td class="num">229</td><td class="num"><span class="badge-up">360%</span></td><td class="num grp">17%</td>
       <td colspan="4"></td>
     </tr>
     <tr>
       <td colspan="5" class="grp"></td>
-      <td>FW과시즌</td><td class="num">23</td><td class="num"><span class="badge-up">598%</span></td><td class="num grp">2%</td>
+      <td>과시즌</td><td class="num">46</td><td class="num"><span class="badge-up">325%</span></td><td class="num grp">3%</td>
       <td colspan="4"></td>
     </tr>
     <tr>
       <td colspan="5" class="grp"></td>
-      <td>SS과시즌</td><td class="num">4</td><td class="num"><span class="badge-up">1,688%</span></td><td class="num grp">0%</td>
+      <td>CORE</td><td class="num">17</td><td class="num"><span class="badge-down">44%</span></td><td class="num grp">1%</td>
       <td colspan="4"></td>
     </tr>
 
@@ -298,48 +315,48 @@
       <th>아이템</th><th class="num">판매율</th><th class="num">전년</th><th class="num">YoY</th>
     </tr>
     <tr style="font-weight:bold;background:#f0f4f8;">
-      <td>합계</td><td class="num">96</td><td class="num">7.1%</td><td class="num grp" colspan="2"><span class="badge-down">YoY 17%</span></td>
-      <td>CORE</td><td class="num">-6.8%</td><td class="num grp" colspan="2"><span class="badge-up">-11.1%p</span></td>
-      <td>전체</td><td class="num">19.2%</td><td class="num" style="color:#718096;">17.8%</td><td class="num"><span class="badge-up">+1.4%p</span></td>
+      <td>합계</td><td class="num">137</td><td class="num">10.0%</td><td class="num grp" colspan="2"><span class="badge-down">YoY 33%</span></td>
+      <td>26FW</td><td class="num">49.3%</td><td class="num grp" colspan="2"><span class="badge-up">-4.7%p</span></td>
+      <td>전체</td><td class="num">39.3%</td><td class="num" style="color:#718096;">34.2%</td><td class="num"><span class="badge-up">+5.1%p</span></td>
     </tr>
     <tr style="background:#ebf8ff;">
-      <td>US EC</td><td class="num">34</td><td class="num">2.8%</td><td class="num grp" colspan="2"><span class="badge-down">YoY 6%</span></td>
-      <td style="background:white;">26SS</td><td class="num" style="background:white;">32.6%</td><td class="num grp" colspan="2" style="background:white;"><span class="badge-up">-0.9%p</span></td>
-      <td style="background:white;">Track Jacket</td><td class="num" style="background:white;">19.5%</td><td class="num" style="background:white;color:#718096;">11.2%</td><td class="num" style="background:white;"><span class="badge-up">+8.3%p</span></td>
+      <td>US EC</td><td class="num">43</td><td class="num">3.7%</td><td class="num grp" colspan="2"><span class="badge-down">YoY 16%</span></td>
+      <td style="background:white;">26SS</td><td class="num" style="background:white;">47.5%</td><td class="num grp" colspan="2" style="background:white;"><span class="badge-down">+10.0%p</span></td>
+      <td style="background:white;">Track Jacket</td><td class="num" style="background:white;">39.0%</td><td class="num" style="background:white;color:#718096;">23.3%</td><td class="num" style="background:white;"><span class="badge-up">+15.7%p</span></td>
     </tr>
     <tr>
-      <td>라이선스/기타</td><td class="num">44</td><td class="num">100%</td><td class="num grp" colspan="2"><span class="badge-up">YoY 117%</span></td>
-      <td>25FW</td><td class="num">54.1%</td><td class="num grp" colspan="2"><span class="badge-down">+4.4%p</span></td>
-      <td>Track Pant</td><td class="num">21.0%</td><td class="num" style="color:#718096;">12.8%</td><td class="num"><span class="badge-up">+8.2%p</span></td>
+      <td>라이선스/기타</td><td class="num">57</td><td class="num">100%</td><td class="num grp" colspan="2"><span class="badge-down">YoY 59%</span></td>
+      <td>25FW</td><td class="num">58.5%</td><td class="num grp" colspan="2"><span class="badge-up">-5.8%p</span></td>
+      <td>Track Pant</td><td class="num">42.9%</td><td class="num" style="color:#718096;">24.8%</td><td class="num"><span class="badge-up">+18.1%p</span></td>
     </tr>
     <tr>
-      <td>US홀세일</td><td class="num">9</td><td class="num">19.9%</td><td class="num grp" colspan="2"><span class="badge-up">흑자전환</span></td>
-      <td>25SS</td><td class="num">68.9%</td><td class="num grp" colspan="2"><span class="badge-down">+15.4%p</span></td>
-      <td>MU 평균</td><td class="num">5.4</td><td class="num" style="color:#718096;">5.5</td><td class="num"><span class="badge-warn">YoY 98%</span></td>
+      <td>US홀세일</td><td class="num">30</td><td class="num">24.5%</td><td class="num grp" colspan="2"><span class="badge-up">YoY 333%</span></td>
+      <td>25SS</td><td class="num">66.3%</td><td class="num grp" colspan="2"><span class="badge-down">+5.2%p</span></td>
+      <td>MU 평균</td><td class="num">5.1</td><td class="num" style="color:#718096;">5.2</td><td class="num"><span class="badge-warn">YoY -0.1</span></td>
     </tr>
     <tr>
-      <td>EU EC</td><td class="num">8</td><td class="num">23.3%</td><td class="num grp" colspan="2"><span class="badge-up">YoY 49%</span></td>
-      <td>FW과시즌</td><td class="num">69.7%</td><td class="num grp" colspan="2"><span class="badge-down">+7.3%p</span></td>
-      <td>Track Jacket MU</td><td class="num">5.3</td><td class="num" style="color:#718096;">5.5</td><td class="num"><span class="badge-down">-0.2</span></td>
+      <td>EU EC</td><td class="num">6</td><td class="num">22.8%</td><td class="num grp" colspan="2"><span class="badge-down">YoY 21%</span></td>
+      <td>과시즌</td><td class="num">60.1%</td><td class="num grp" colspan="2"><span class="badge-up">-3.3%p</span></td>
+      <td>Track Jacket MU</td><td class="num">5.5</td><td class="num" style="color:#718096;">4.9</td><td class="num"><span class="badge-up">+0.6</span></td>
     </tr>
     <tr>
-      <td colspan="5" class="grp" style="font-size:6.5px;color:#718096;padding-top:2px;">인원 25명(정규20,계약5) | 인당매출 54K(YoY 82%) | 인당영업비 28K(YoY 117%)</td>
-      <td>SS과시즌</td><td class="num">70.9%</td><td class="num grp" colspan="2"><span class="badge-down">+8.6%p</span></td>
-      <td>Track Pant MU</td><td class="num">5.9</td><td class="num" style="color:#718096;">5.5</td><td class="num"><span class="badge-up">+0.4</span></td>
+      <td colspan="5" class="grp" style="font-size:6.5px;color:#718096;padding-top:2px;">인원 25명(정규19,계약6) | 인당매출 55K(YoY 110%) | 인당영업비 22K(YoY 96%)</td>
+      <td>CORE</td><td class="num">-6.3%</td><td class="num grp" colspan="2"><span class="badge-up">-16.5%p</span></td>
+      <td>Track Pant MU</td><td class="num">5.3</td><td class="num" style="color:#718096;">5.2</td><td class="num"><span class="badge-up">+0.1</span></td>
     </tr>
   </table>
 
-  <div style="font-size:6.5px;color:#718096;margin-top:2px;">라이선스/기타 44K(YoY 117%) — 5월 5K 대비 대폭 증가. 6월 직접이익 96K 중 44K(46%)를 라이선스가 기여. US EC 이익률 2.8%로 매출 91% 채널 수익성 붕괴</div>
+  <div style="font-size:6.5px;color:#718096;margin-top:2px;">라이선스/기타 57K(YoY 59%) — 이익률 100%로 직접이익(137K)의 42% 기여. US EC 이익률 3.7%로 매출 85% 채널 수익성 극히 낮음 · US홀세일 이익률 24.5%(전채널 최고)</div>
 
   <div class="container" style="margin-top:8px;">
     <div class="left">
       <div class="box box-green">
         <div class="box-title green">📊 채널·아이템 인사이트 — 긍정 시그널 (AI)</div>
         <ul>
-          <li><b>라이선스/기타 44K(YoY 117%) — 이익 구조 최대 기여자</b> — 100% 이익률로 전체 직접이익(96K)의 46% 담당. 5월 5K에서 44K로 급증. 6월 라이선스 수익 회복이 적자 방어</li>
-          <li><b>FW·SS과시즌 YoY 598%·1,688% 소진 가속</b> — 극소 규모지만 이월 재고 처분 속도 역대 최고. 25FW도 152%로 이월 소진 지속</li>
-          <li><b>EU EC 할인율 18.7%(-19.1%p 대폭 개선)</b> — 채널 중 가장 낮은 할인율. EU EC 이익률 23.3%도 US홀세일(19.9%)을 상회. 구조조정 효과 반영</li>
-          <li><b>26SS 할인율 32.6%(-0.9%p 개선)</b> — 신상 시즌 가격 방어력 소폭 강화. 전년 대비 할인 억제 기조 유지</li>
+          <li><b>US홀세일 194% 반등 — 이익 구조 최고 기여 채널 전환</b> — 122K, 이익 30K(전년 9K에서 333%). 이익률 24.5%로 전채널 최고. 할인율 33.2%(-38.3%p)로 가격 방어력 회복</li>
+          <li><b>25SS 이월 YoY 360% 소진 가속</b> — 229K 처분. 과시즌도 325%로 급가속. 이월 재고 처분 볼륨 최고 달성</li>
+          <li><b>EU EC 할인율 13.6%(-30.0%p 대폭 개선)</b> — 이익률 22.8% 유지. US홀세일(24.5%)에 근접한 수익성. 고할인 구조에서 탈피</li>
+          <li><b>CORE -6.3% 할인율 — 정가 이상 판매 추가 강화</b> — 전년 대비 -16.5%p 개선. 브랜드 가격 방어력 지속 강화</li>
         </ul>
       </div>
     </div>
@@ -347,10 +364,10 @@
       <div class="box box-red">
         <div class="box-title red">🔻 채널·아이템 인사이트 — 구조적 우려 (AI)</div>
         <ul>
-          <li><b>26SS 신상 YoY 56% 부진 — 6월이 SS 피크임에도 볼륨 급감</b> — 전년 1,346K에서 754K로 감소. 이월 재고 처분 집중이 신상 견인력을 약화. 신상 비중(56%) 정상화 조건 미충족</li>
-          <li><b>US EC 이익률 2.8%(34K/1,218K) — 핵심 채널 수익성 붕괴</b> — 매출 91% 채널의 마진 2.8%. 볼륨이 크면 클수록 이익 기반이 얇아지는 역설 구조. US EC 할인율 48.4%(+13.0%p) 주도</li>
-          <li><b>EU EC 35K(YoY 51%) — 볼륨 반토막 지속</b> — 할인율과 이익률은 개선됐으나 절대 볼륨 급감. 수익성 개선이 볼륨 손실에 기인하는 구조적 한계</li>
-          <li><b>25SS 할인율 68.9%(+15.4%p) — 이월 처분 가속도 최고</b> — 소진 속도 YoY 269%이나 할인율 급등으로 이익 잠식 지속. 처분 속도와 이익률 간 최적점 재검토 필요</li>
+          <li><b>US EC 이익률 3.7%(43K/1,167K) — 핵심 채널 수익성 위기 지속</b> — 매출 85% 채널 마진 3.7%. 할인율 56.7%(+7.8%p)로 추가 악화. 볼륨 확보와 이익률이 반비례하는 역설 구조 해소 필요</li>
+          <li><b>26SS 신상 YoY 75% 부진 — 7월 SS 피크에도 볼륨 급감</b> — 전년 924K에서 693K로 감소. 이월 처분 집중으로 신상 견인력 약화 지속</li>
+          <li><b>EU EC 26K(YoY 30%) — 볼륨 급감 지속</b> — 할인율과 이익률은 개선됐으나 절대 볼륨 70% 감소. 수익성 개선이 볼륨 손실에 기인하는 구조적 한계</li>
+          <li><b>26SS 할인율 47.5%(+10.0%p) — 신상 가격 방어력 약화</b> — 전년 37.5%에서 급등. 신상 시즌 고할인 진입은 하반기 이월 처분 부담 예고</li>
         </ul>
       </div>
     </div>
@@ -363,58 +380,70 @@
     <div class="left">
       <table>
         <tr><th colspan="4" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">💰 전사 손익 (K USD)</th></tr>
-        <tr><th>항목</th><th class="num">당월(6월)</th><th class="num">전년동월</th><th class="num">YoY</th></tr>
-        <tr><td>실판매출</td><td class="num">1,344</td><td class="num" style="color:#718096;">1,702</td><td class="num"><span class="badge-down">79%</span></td></tr>
-        <tr><td>할인율</td><td class="num">49.2%</td><td class="num" style="color:#718096;">38.2%</td><td class="num"><span class="badge-down">+11.0%p</span></td></tr>
-        <tr><td>직접이익</td><td class="num">96</td><td class="num" style="color:#718096;">565</td><td class="num"><span class="badge-down">17%</span></td></tr>
-        <tr><td>직접이익률</td><td class="num">7.1%</td><td class="num" style="color:#718096;">33.2%</td><td class="num"><span class="badge-down">-26.1%p</span></td></tr>
-        <tr style="background:#fff5f5;"><td>영업비</td><td class="num">700</td><td class="num" style="color:#718096;">631</td><td class="num"><span class="badge-down">111%↑</span></td></tr>
-        <tr><td>영업비율</td><td class="num">52.1%</td><td class="num" style="color:#718096;">37.1%</td><td class="num"><span class="badge-down">+15.0%p</span></td></tr>
-        <tr style="font-weight:bold;background:#fed7d7;"><td>영업이익</td><td class="num loss">-604 (적자)</td><td class="num loss">-66</td><td class="num"><span class="badge-down">적자심화</span></td></tr>
+        <tr><th>항목</th><th class="num">당월(7월)</th><th class="num">전년동월</th><th class="num">YoY</th></tr>
+        <tr><td>실판매출</td><td class="num">1,374</td><td class="num" style="color:#718096;">1,636</td><td class="num"><span class="badge-down">84%</span></td></tr>
+        <tr><td>MSRP 정가매출</td><td class="num">2,969</td><td class="num" style="color:#718096;">3,193</td><td class="num"><span class="badge-down">93%</span></td></tr>
+        <tr><td>할인율</td><td class="num">54.8%</td><td class="num" style="color:#718096;">50.1%</td><td class="num"><span class="badge-down">+4.7%p</span></td></tr>
+        <tr style="background:#fff5f5;"><td>직접비용</td><td class="num">602</td><td class="num" style="color:#718096;">568</td><td class="num"><span class="badge-down">106%↑</span></td></tr>
+        <tr><td>직접비율</td><td class="num">43.8%</td><td class="num" style="color:#718096;">34.7%</td><td class="num"><span class="badge-down">+9.1%p</span></td></tr>
+        <tr><td>직접이익</td><td class="num">137</td><td class="num" style="color:#718096;">415</td><td class="num"><span class="badge-down">33%</span></td></tr>
+        <tr><td>직접이익률</td><td class="num">10.0%</td><td class="num" style="color:#718096;">25.4%</td><td class="num"><span class="badge-down">-15.4%p</span></td></tr>
+        <tr><td>영업비</td><td class="num">551</td><td class="num" style="color:#718096;">633</td><td class="num"><span class="badge-up">87%↓</span></td></tr>
+        <tr><td>영업비율</td><td class="num">40.2%</td><td class="num" style="color:#718096;">38.7%</td><td class="num"><span class="badge-down">+1.5%p</span></td></tr>
+        <tr style="font-weight:bold;background:#fed7d7;"><td>영업이익</td><td class="num loss">-414 (적자)</td><td class="num loss">-218</td><td class="num"><span class="badge-down">적자심화</span></td></tr>
       </table>
-      <div style="font-size:6.5px;color:#718096;margin-top:3px;">※ 전년동월 추정값(YoY 역산) · IWD 158K 포함 기타비용이 영업비를 700K로 끌어올림 · 4월 -320K → 5월 -183K → 6월 -604K 적자 급확대</div>
+      <div style="font-size:6.5px;color:#718096;margin-top:3px;">※ 전년동월 추정값(YoY 역산) · 직접비용 SEM광고비 271K 포함 · 4월 -320K → 5월 -183K → 6월 -604K → 7월 -414K (개선)</div>
+
+      <table style="margin-top:6px;">
+        <tr><th colspan="3" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">📦 직접비용 항목별 (K USD)</th></tr>
+        <tr><th>항목</th><th class="num">당월</th><th class="num">YoY</th></tr>
+        <tr style="font-weight:bold;background:#f0f4f8;"><td>합계</td><td class="num">602</td><td class="num"><span class="badge-down">106%↑</span></td></tr>
+        <tr style="background:#fff5f5;"><td>SEM광고비</td><td class="num">271</td><td class="num"><span class="badge-down">128%</span></td></tr>
+        <tr><td>지급수수료</td><td class="num">76</td><td class="num"><span class="badge-up">91%</span></td></tr>
+        <tr><td>운반비</td><td class="num">79</td><td class="num"><span class="badge-up">99%</span></td></tr>
+        <tr><td>물류용역비</td><td class="num">66</td><td class="num"><span class="badge-up">94%</span></td></tr>
+        <tr><td>결제수수료</td><td class="num">54</td><td class="num"><span class="badge-up">80%</span></td></tr>
+        <tr><td>보관료</td><td class="num">54</td><td class="num"><span class="badge-down">132%</span></td></tr>
+        <tr><td>기타비용</td><td class="num">0</td><td class="num"><span class="badge-neutral">—</span></td></tr>
+      </table>
+      <div style="font-size:6.5px;color:#718096;margin-top:3px;">SEM광고비 271K = 직접비용의 45% · 보관료 132%↑ 재고 증가 연동 · 결제수수료 감소는 긍정</div>
     </div>
     <div class="right">
       <table>
         <tr><th colspan="4" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">💼 영업비 항목별 (K USD)</th></tr>
         <tr><th>항목</th><th class="num">당월</th><th class="num">YoY</th><th>평가</th></tr>
-        <tr style="font-weight:bold;background:#f0f4f8;"><td>합계</td><td class="num">700</td><td class="num"><span class="badge-down">111%↑</span></td><td>급증</td></tr>
-        <tr><td>인건비</td><td class="num">329</td><td class="num"><span class="badge-up">88%</span></td><td>소폭감소</td></tr>
-        <tr><td>광고선전비</td><td class="num">102</td><td class="num"><span class="badge-down">117%</span></td><td>급증▲</td></tr>
-        <tr><td>지급수수료</td><td class="num">96</td><td class="num"><span class="badge-up">86%</span></td><td>감소</td></tr>
-        <tr style="background:#fff5f5;"><td>기타비용</td><td class="num">136</td><td class="num"><span class="badge-down">550%</span></td><td>IWD포함↑</td></tr>
-        <tr><td>&nbsp;└ Inventory Write-Down</td><td class="num">159</td><td class="num">—</td><td>일회성</td></tr>
-        <tr><td>&nbsp;└ Bad Debt 회수(상쇄)</td><td class="num">-33</td><td class="num">—</td><td>일부상쇄</td></tr>
+        <tr style="font-weight:bold;background:#f0f4f8;"><td>합계</td><td class="num">551</td><td class="num"><span class="badge-up">87%↓</span></td><td>절감</td></tr>
+        <tr><td>인건비</td><td class="num">342</td><td class="num"><span class="badge-up">83%</span></td><td>감소</td></tr>
+        <tr style="background:#fff5f5;"><td>지급수수료</td><td class="num">124</td><td class="num"><span class="badge-down">138%</span></td><td>급증▲</td></tr>
+        <tr><td>기타비용</td><td class="num">28</td><td class="num"><span class="badge-down">187%</span></td><td>증가</td></tr>
         <tr><td>임차료</td><td class="num">24</td><td class="num"><span class="badge-neutral">100%</span></td><td>보합</td></tr>
-        <tr><td>감가상각비</td><td class="num">7</td><td class="num"><span class="badge-neutral">100%</span></td><td>보합</td></tr>
-        <tr><td>식대/출장비</td><td class="num">4</td><td class="num"><span class="badge-down">345%</span></td><td>급증</td></tr>
-        <tr><td>샘플비/개발비</td><td class="num">1</td><td class="num"><span class="badge-up">23%</span></td><td>대폭절감</td></tr>
+        <tr><td>광고선전비</td><td class="num">20</td><td class="num"><span class="badge-up">26%</span></td><td>대폭절감</td></tr>
+        <tr><td>감가상각비</td><td class="num">8</td><td class="num"><span class="badge-down">200%</span></td><td>증가</td></tr>
+        <tr><td>샘플비/개발비</td><td class="num">4</td><td class="num"><span class="badge-up">80%</span></td><td>감소</td></tr>
+        <tr><td>여비/출장비</td><td class="num">3</td><td class="num"><span class="badge-down">300%</span></td><td>급증</td></tr>
       </table>
-      <div style="font-size:6.5px;color:#718096;margin-top:3px;">IWD 제외 실질 기타비용 약 -22K(Bad Debt 상쇄) · 광고비 88K 급증 원인 파악 필요 · 샘플비 77% 절감 지속</div>
-    </div>
-  </div>
+      <div style="font-size:6.5px;color:#718096;margin-top:3px;">광고선전비 20K(전월 102K→82K 절감) 최대 공헌 · 지급수수료 124K(138%) 플랫폼 수수료 급증 우려 · 인건비 83%로 절감 기조 유지</div>
 
-  <div class="container" style="margin-top:8px;">
-    <div class="left">
-      <div class="box box-green">
-        <div class="box-title green">💰 손익·비용 인사이트 — 방어 요인 (AI)</div>
-        <ul>
-          <li><b>인건비 329K(YoY 88%) — 비교적 안정적 통제</b> — 인원 25명 유지(전년 26명). 인당 매출 54K(YoY 82%)로 하락했으나 인건비 절대액은 유지. 구조조정 효과 지속</li>
-          <li><b>지급수수료 96K(YoY 86%) — 감소 기조 유지</b> — 5월 60K에서 상승했으나 전년 대비는 여전히 감소. 수수료 구조 개선 기조 유지</li>
-          <li><b>Bad Debt 회수 -33K — 기타비용 일부 상쇄</b> — IWD 159K의 21% 상쇄. 순 기타비용 136K 중 일부는 회수 효과 반영</li>
-          <li><b>샘플비/개발비 1K(YoY 23%) 대폭절감 지속</b> — 전년 대비 77% 절감. 신상 개발 효율화 기조 유지</li>
-        </ul>
-      </div>
-    </div>
-    <div class="right">
-      <div class="box box-red">
-        <div class="box-title red">🔻 손익·비용 인사이트 — 구조적 우려 (AI)</div>
-        <ul>
-          <li><b>직접이익률 7.1% — 영업비율 52% 돌파로 흑자 구조 불가</b> — 이익률 7.1%로 영업비율 52.1%를 절대 이길 수 없는 구조. 흑자 전환을 위해선 이익률 50%+ 또는 영업비 100K 미만이 필요 (현재 조건 모두 미충족)</li>
-          <li><b>광고선전비 102K(YoY 117%) — 5월 14K 대비 88K 폭증</b> — 5월 대폭절감에서 6월 급반등. 광고 집행 규칙성 부재. 매출 회복 기여도 검증 필요</li>
-          <li><b>IWD 159K — 재고 과잉의 P&L 충격 현실화</b> — 25FW·25SS 이월 재고 가치 손상. 이후에도 추가 IWD 발생 가능성 상존. 재고 처분 속도가 IWD 리스크 좌우</li>
-          <li><b>영업이익 -604K — 전월(-183K)에서 421K 추가 악화</b> — 상반기 최악 월. 직접이익 감소(276K→96K, -180K)와 영업비 급증(459K→700K, +241K) 동시 발생</li>
-        </ul>
+      <div class="container" style="margin-top:8px;gap:0;">
+        <div style="width:100%;">
+          <div class="box box-green" style="margin-top:6px;">
+            <div class="box-title green">💰 손익·비용 인사이트 — 방어 요인 (AI)</div>
+            <ul>
+              <li><b>광고선전비 20K(YoY 26%) — 6월 102K에서 82K 급절감</b> — 월간 광고비 최저 수준. IWD 제거로 기타비용도 정상화. 영업비 총액 700K→551K 개선</li>
+              <li><b>인건비 342K(YoY 83%) — 절감 기조 유지</b> — 25명(정규19, 계약6) 유지. 인당매출 55K(YoY 110%) 오히려 개선. 인원 효율성 회복</li>
+              <li><b>결제수수료 54K(YoY 80%) — 직접비용 중 절감 항목</b> — 플랫폼 결제 효율화 효과</li>
+              <li><b>영업이익 -414K — 전월 -604K 대비 190K 개선</b> — IWD 소멸 + 광고비 절감 동반. 적자 규모 축소 추세 재개</li>
+            </ul>
+          </div>
+          <div class="box box-red">
+            <div class="box-title red">🔻 손익·비용 인사이트 — 구조적 우려 (AI)</div>
+            <ul>
+              <li><b>직접비용 602K(YoY 106%) — SEM 271K 집중 위험</b> — 직접비용 증가폭이 매출 감소(-262K)보다 큼. SEM광고비 45% 비중은 직접비 구조 왜곡</li>
+              <li><b>지급수수료 124K(YoY 138%) 급증 — 영업비 절감 노력 상쇄</b> — 광고비 절감(82K)의 1.5배가 수수료로 증가. 플랫폼 의존도 심화</li>
+              <li><b>직접이익률 10% vs 영업비율 40% — 구조적 손실 불가피</b> — 이익률 10%로 영업비율 40% 절대 커버 불가. 흑자 전환 위해 이익률 40%+ 필요</li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -425,31 +454,31 @@
   <div class="container">
     <div class="left">
       <table>
-        <tr><th colspan="4" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">📦 시즌별 기말재고 (K USD, 6월말)</th></tr>
-        <tr><th>시즌</th><th class="num">6월말</th><th class="num">전년동월</th><th class="num">YoY</th></tr>
-        <tr style="font-weight:bold;background:#f0f4f8;"><td>합계</td><td class="num">26,067</td><td class="num" style="color:#718096;">29,037</td><td class="num"><span class="badge-up">90%</span></td></tr>
-        <tr style="background:#ebf8ff;"><td>25FW</td><td class="num">11,061</td><td class="num" style="color:#718096;">5,643</td><td class="num"><span class="badge-down">196%▲</span></td></tr>
-        <tr><td>26SS</td><td class="num">10,309</td><td class="num" style="color:#718096;">20,214</td><td class="num"><span class="badge-up">51%</span></td></tr>
-        <tr><td>25SS</td><td class="num">3,240</td><td class="num" style="color:#718096;">939</td><td class="num"><span class="badge-down">345%▲</span></td></tr>
-        <tr><td>CORE</td><td class="num">713</td><td class="num" style="color:#718096;">1,485</td><td class="num"><span class="badge-up">48%</span></td></tr>
-        <tr><td>FW과시즌</td><td class="num">624</td><td class="num" style="color:#718096;">499</td><td class="num"><span class="badge-down">125%▲</span></td></tr>
-        <tr><td>SS과시즌</td><td class="num">120</td><td class="num" style="color:#718096;">51</td><td class="num"><span class="badge-down">235%▲</span></td></tr>
+        <tr><th colspan="4" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">📦 시즌별 기말재고 (K USD, 7월말)</th></tr>
+        <tr><th>시즌</th><th class="num">7월말</th><th class="num">전년동월</th><th class="num">YoY</th></tr>
+        <tr style="font-weight:bold;background:#f0f4f8;"><td>합계</td><td class="num">30,352</td><td class="num" style="color:#718096;">34,103</td><td class="num"><span class="badge-up">89%</span></td></tr>
+        <tr style="background:#fff5f5;"><td>25FW</td><td class="num">10,804</td><td class="num" style="color:#718096;">4,204</td><td class="num"><span class="badge-down">257%▲</span></td></tr>
+        <tr style="background:#ebf8ff;"><td>26SS</td><td class="num">9,149</td><td class="num" style="color:#718096;">19,060</td><td class="num"><span class="badge-up">48%</span></td></tr>
+        <tr><td>26FW</td><td class="num">5,419</td><td class="num" style="color:#718096;">7,969</td><td class="num"><span class="badge-up">68%</span></td></tr>
+        <tr><td>25SS</td><td class="num">2,467</td><td class="num" style="color:#718096;">778</td><td class="num"><span class="badge-down">317%▲</span></td></tr>
+        <tr><td>과시즌</td><td class="num">1,588</td><td class="num" style="color:#718096;">519</td><td class="num"><span class="badge-down">306%▲</span></td></tr>
+        <tr><td>CORE</td><td class="num">925</td><td class="num" style="color:#718096;">1,713</td><td class="num"><span class="badge-up">54%</span></td></tr>
       </table>
-      <div style="font-size:6.5px;color:#718096;margin-top:2px;">총재고 YoY 90% — 5월 29,813K에서 6월 26,067K로 -3,746K 감소. 25FW·25SS 이월 합계 14,301K = 총재고의 55%</div>
+      <div style="font-size:6.5px;color:#718096;margin-top:2px;">총재고 YoY 89% — 6월 26,067K에서 7월 30,352K로 +4,285K 증가(26FW 신시즌 입고). 25FW·25SS 이월 합계 13,271K = 총재고의 44%</div>
     </div>
     <div class="right">
       <table>
-        <tr><th colspan="4" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">📊 채널별 YTD 직접이익 (1~6월 누적, K USD)</th></tr>
+        <tr><th colspan="4" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">📊 채널별 YTD 직접이익 (1~7월 누적, K USD)</th></tr>
         <tr><th>채널</th><th class="num">YTD 이익</th><th class="num">이익률</th><th class="num">전년대비</th></tr>
-        <tr style="font-weight:bold;background:#f0f4f8;"><td>합계</td><td class="num">1,331</td><td class="num">—</td><td class="num">—</td></tr>
-        <tr><td>US EC</td><td class="num">851</td><td class="num">12.3%</td><td class="num"><span class="badge-down">-17.2%p</span></td></tr>
-        <tr><td>라이선스/기타</td><td class="num">282</td><td class="num">100%</td><td class="num"><span class="badge-neutral">+0%p</span></td></tr>
-        <tr><td>US홀세일</td><td class="num">194</td><td class="num">40%</td><td class="num"><span class="badge-neutral">+0.0%p</span></td></tr>
-        <tr style="background:#f0fff4;"><td>EU EC</td><td class="num">4</td><td class="num">1.8%</td><td class="num"><span class="badge-down">-5.0%p</span></td></tr>
+        <tr style="font-weight:bold;background:#f0f4f8;"><td>합계</td><td class="num">1,467</td><td class="num">—</td><td class="num">—</td></tr>
+        <tr><td>US EC</td><td class="num">894</td><td class="num">11.0%</td><td class="num"><span class="badge-down">-17.1%p</span></td></tr>
+        <tr><td>라이선스/기타</td><td class="num">340</td><td class="num">100%</td><td class="num"><span class="badge-neutral">+0%p</span></td></tr>
+        <tr><td>US홀세일</td><td class="num">224</td><td class="num">36.9%</td><td class="num"><span class="badge-down">-1.4%p</span></td></tr>
+        <tr style="background:#f0fff4;"><td>EU EC</td><td class="num">9</td><td class="num">4.2%</td><td class="num"><span class="badge-down">-6.9%p</span></td></tr>
       </table>
-      <div style="font-size:6.5px;color:#718096;margin-top:3px;margin-bottom:4px;">YTD 라이선스/기타 282K — 6월 44K 포함 · EU EC YTD 4K(5월 -5K에서 흑자 전환)</div>
+      <div style="font-size:6.5px;color:#718096;margin-top:3px;margin-bottom:4px;">YTD 라이선스/기타 340K — 7월 57K 포함 · EU EC YTD 9K(6월 4K에서 추가 개선) · YTD US홀세일 이익률 36.9%</div>
       <div class="box-dark">
-        <div style="font-weight:bold;font-size:8.5px;margin-bottom:4px;">📌 핵심 YoY 지표 요약 (6월 당월)</div>
+        <div style="font-weight:bold;font-size:8.5px;margin-bottom:4px;">📌 핵심 YoY 지표 요약 (7월 당월)</div>
         <table style="color:white;">
           <tr>
             <th style="background:rgba(255,255,255,.1);color:white;border-color:rgba(255,255,255,.2);">지표</th>
@@ -457,11 +486,11 @@
             <th style="background:rgba(255,255,255,.1);color:white;border-color:rgba(255,255,255,.2);" class="num">전년동월</th>
             <th style="background:rgba(255,255,255,.1);color:white;border-color:rgba(255,255,255,.2);" class="num">YoY</th>
           </tr>
-          <tr><td style="border-color:rgba(255,255,255,.1);">실판매출</td><td class="num" style="border-color:rgba(255,255,255,.1);">1,344K</td><td class="num" style="border-color:rgba(255,255,255,.1);">1,702K</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#fc8181;">79%</td></tr>
-          <tr><td style="border-color:rgba(255,255,255,.1);">직접이익</td><td class="num" style="border-color:rgba(255,255,255,.1);">96K</td><td class="num" style="border-color:rgba(255,255,255,.1);">565K</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#fc8181;">17%</td></tr>
-          <tr><td style="border-color:rgba(255,255,255,.1);color:#fc8181;">영업비</td><td class="num" style="border-color:rgba(255,255,255,.1);">700K</td><td class="num" style="border-color:rgba(255,255,255,.1);">631K</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#fc8181;">111%↑</td></tr>
-          <tr><td style="border-color:rgba(255,255,255,.1);">할인율</td><td class="num" style="border-color:rgba(255,255,255,.1);">49.2%</td><td class="num" style="border-color:rgba(255,255,255,.1);">38.2%</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#fc8181;">+11.0%p</td></tr>
-          <tr><td style="border-color:rgba(255,255,255,.1);">재고(K USD)</td><td class="num" style="border-color:rgba(255,255,255,.1);">26,067</td><td class="num" style="border-color:rgba(255,255,255,.1);">29,037</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#68d391;">90%</td></tr>
+          <tr><td style="border-color:rgba(255,255,255,.1);">실판매출</td><td class="num" style="border-color:rgba(255,255,255,.1);">1,374K</td><td class="num" style="border-color:rgba(255,255,255,.1);">1,636K</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#fc8181;">84%</td></tr>
+          <tr><td style="border-color:rgba(255,255,255,.1);">직접이익</td><td class="num" style="border-color:rgba(255,255,255,.1);">137K</td><td class="num" style="border-color:rgba(255,255,255,.1);">415K</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#fc8181;">33%</td></tr>
+          <tr><td style="border-color:rgba(255,255,255,.1);color:#fc8181;">영업비</td><td class="num" style="border-color:rgba(255,255,255,.1);">551K</td><td class="num" style="border-color:rgba(255,255,255,.1);">633K</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#68d391;">87%↓</td></tr>
+          <tr><td style="border-color:rgba(255,255,255,.1);">할인율</td><td class="num" style="border-color:rgba(255,255,255,.1);">54.8%</td><td class="num" style="border-color:rgba(255,255,255,.1);">50.1%</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#fc8181;">+4.7%p</td></tr>
+          <tr><td style="border-color:rgba(255,255,255,.1);">재고(K USD)</td><td class="num" style="border-color:rgba(255,255,255,.1);">30,352</td><td class="num" style="border-color:rgba(255,255,255,.1);">34,103</td><td class="num" style="border-color:rgba(255,255,255,.1);color:#68d391;">89%</td></tr>
         </table>
       </div>
     </div>
@@ -472,10 +501,10 @@
       <div class="box box-green">
         <div class="box-title green">📦 재고·YTD 인사이트 — 방어 요인 (AI)</div>
         <ul>
-          <li><b>총재고 YoY 90%, 5월 대비 -3,746K 감소</b> — 29,813K(5월)→26,067K(6월). 이월 소진과 26SS 재고 소진이 동반 진행. 재고 감소 추세 안정적 유지</li>
-          <li><b>26SS 재고 10,309K(YoY 51%) — 전년 절반 수준</b> — 전년 20,214K에서 대폭 감소. 신상 재고 부담 상대적으로 낮음. 26SS 재고 건전화 확인</li>
-          <li><b>CORE 재고 713K(YoY 48%) — 정가 판매+재고 감소 동반</b> — 전년 1,485K에서 -772K 감소. -6.8% 할인율(정가 이상)과 재고 감소 동반 = 가장 이상적 패턴</li>
-          <li><b>YTD EU EC 4K — 5월 누적 -5K 적자에서 흑자 전환</b> — 6월 8K 기여로 YTD 누적 흑자 전환. 상반기 누적 손익 개선 시그널</li>
+          <li><b>26SS 재고 9,149K(YoY 48%) — 전년 19,060K의 절반 이하</b> — 신상 재고 소진 순항. 6월 10,309K에서 7월 9,149K로 1,160K 추가 감소</li>
+          <li><b>CORE 재고 925K(YoY 54%) — 정가 이상 판매+재고 감소 동반</b> — 전년 1,713K에서 -788K 감소. 할인율 -6.3%로 정가 이상 판매하면서도 재고 감소 = 이상적 패턴</li>
+          <li><b>26FW 신시즌 재고 5,419K(YoY 68%) — 전년 대비 낮은 초기 재고</b> — 전년 25FW 7,969K 대비 68%로 신중한 소싱 기조 확인</li>
+          <li><b>YTD EU EC 9K — 7개월 누적 흑자 유지·개선</b> — 6월 4K에서 7월 9K로 추가 개선. EU 채널 수익성 회복 지속</li>
         </ul>
       </div>
     </div>
@@ -483,10 +512,10 @@
       <div class="box box-red">
         <div class="box-title red">🔻 재고·YTD 인사이트 — 구조적 우려 (AI)</div>
         <ul>
-          <li><b>25FW 재고 11,061K(전년 5,643K, YoY 196%) — 이월 최다 시즌</b> — 전년 대비 약 2배. 처분 YoY 152%에도 절대량 과잉 지속. 26FW 출시 전 해소 시급</li>
-          <li><b>25FW+25SS 이월 합계 14,301K — 총재고의 55%</b> — 신상(26SS 10,309K)보다 이월이 많은 비정상 구조 지속. 이월 처분 위한 고할인 구조 당분간 불가피</li>
-          <li><b>YTD US EC 이익률 12.3%(-17.2%p) — 6개월 연속 하락</b> — 매출 최대 채널의 수익성 구조적 약화. 할인율 상승이 볼륨 확보와 반비례. 하반기 정상화 전략 수립 시급</li>
-          <li><b>IWD 추가 발생 위험 상존</b> — 25FW·25SS 재고 과잉 지속으로 추가 IWD 가능성. 재고 감액손실이 하반기에도 반복될 경우 영업비 구조적 고비용 지속</li>
+          <li><b>25FW 재고 10,804K(전년 4,204K, YoY 257%) — 이월 최대 부담</b> — 전년의 2.6배. 처분 YoY 67%에 그쳐 소진 속도 둔화. 26FW 출시와 겹치며 처분 압력 가중</li>
+          <li><b>총재고 30,352K — 6월 26,067K에서 역증가</b> — 26FW 신시즌 입고로 4,285K 증가. 재고 감소 추세 일시 중단. 8월 이후 재소진 가속 필요</li>
+          <li><b>25FW+25SS 이월 합계 13,271K = 총재고의 44%</b> — 신상(26FW+26SS 14,568K=48%)보다 이월 비중 여전히 높음. 고할인 처분 불가피</li>
+          <li><b>YTD US EC 이익률 11%(-17.1%p) — 7개월 연속 하락</b> — 매출 최대 채널 수익성 구조적 약화. 직접비용(SEM) 급증이 주원인. 하반기 SEM 투자 효율화 시급</li>
         </ul>
       </div>
     </div>
@@ -494,12 +523,12 @@
 
   <hr class="divider">
 
-  <div class="page-title" id="sec5">5. 판매율 &amp; MU 상세 (6월 기준)</div>
+  <div class="page-title" id="sec5">5. 판매율 &amp; MU 상세 (7월 기준)</div>
   <div class="kpi-grid-4" style="margin-bottom:10px;">
     <div class="kpi-box highlight">
       <div class="kpi-label">전체 판매율</div>
-      <div class="kpi-value" style="font-size:13px;">19.2%</div>
-      <div class="kpi-change up">전년 17.8% · +1.4%p 개선</div>
+      <div class="kpi-value" style="font-size:13px;">39.3%</div>
+      <div class="kpi-change up">전년 34.2% · +5.1%p 개선</div>
     </div>
     <div class="kpi-box">
       <div class="kpi-label">주문량 YoY</div>
@@ -508,13 +537,13 @@
     </div>
     <div class="kpi-box">
       <div class="kpi-label">MU 평균</div>
-      <div class="kpi-value" style="font-size:13px;">5.4</div>
-      <div class="kpi-change down">전년 5.5 · -0.1 소폭 하락</div>
+      <div class="kpi-value" style="font-size:13px;">5.1</div>
+      <div class="kpi-change down">전년 5.2 · -0.1 소폭 하락</div>
     </div>
     <div class="kpi-box">
       <div class="kpi-label">헤드카운트</div>
       <div class="kpi-value" style="font-size:13px;">25명</div>
-      <div class="kpi-change up">정규 20, 계약 5 · 전년 26명</div>
+      <div class="kpi-change up">정규 19, 계약 6 · 전년 27명</div>
     </div>
   </div>
 
@@ -535,20 +564,20 @@
 
   <div>
     <table>
-      <tr><th colspan="6" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">📋 아이템별 판매율 상세 (6월 기준)</th></tr>
+      <tr><th colspan="6" style="background:#f7fafc;font-size:8px;border-bottom:1.5px solid #2d3748;">📋 아이템별 판매율 상세 (7월 기준)</th></tr>
       <tr><th>아이템</th><th class="num">주문량</th><th class="num">주문 YoY</th><th class="num">판매율</th><th class="num">전년판매율</th><th class="num">YoY 변화</th></tr>
-      <tr><td>Track Jacket</td><td class="num">3,330</td><td class="num"><span class="badge-down">43%</span></td><td class="num"><b>19.5%</b></td><td class="num" style="color:#718096;">11.2%</td><td class="num"><span class="badge-up">+8.3%p</span></td></tr>
-      <tr><td>Track Pant</td><td class="num">2,133</td><td class="num"><span class="badge-down">33%</span></td><td class="num"><b>21.0%</b></td><td class="num" style="color:#718096;">12.8%</td><td class="num"><span class="badge-up">+8.2%p</span></td></tr>
-      <tr><td>Shorts</td><td class="num">2,782</td><td class="num"><span class="badge-up">122%</span></td><td class="num"><b>20.7%</b></td><td class="num" style="color:#718096;">26.8%</td><td class="num"><span class="badge-down">-6.1%p</span></td></tr>
-      <tr><td>T-Shirt</td><td class="num">1,667</td><td class="num"><span class="badge-down">75%</span></td><td class="num"><b>15.0%</b></td><td class="num" style="color:#718096;">21.7%</td><td class="num"><span class="badge-down">-6.7%p</span></td></tr>
-      <tr><td>Polo</td><td class="num">1,556</td><td class="num"><span class="badge-down">81%</span></td><td class="num"><b>33.2%</b></td><td class="num" style="color:#718096;">36.6%</td><td class="num"><span class="badge-down">-3.4%p</span></td></tr>
-      <tr style="font-weight:bold;background:#f0f4f8;"><td>Total</td><td class="num">14,601</td><td class="num"><span class="badge-down">48%</span></td><td class="num">19.2%</td><td class="num" style="color:#718096;">17.8%</td><td class="num"><span class="badge-up">+1.4%p</span></td></tr>
+      <tr><td>Track Jacket</td><td class="num">3,076</td><td class="num"><span class="badge-down">20%</span></td><td class="num"><b>39.0%</b></td><td class="num" style="color:#718096;">23.3%</td><td class="num"><span class="badge-up">+15.7%p</span></td></tr>
+      <tr><td>Track Pant</td><td class="num">2,087</td><td class="num"><span class="badge-down">12%</span></td><td class="num"><b>42.9%</b></td><td class="num" style="color:#718096;">24.8%</td><td class="num"><span class="badge-up">+18.1%p</span></td></tr>
+      <tr><td>Shorts</td><td class="num">2,951</td><td class="num"><span class="badge-up">62%</span></td><td class="num"><b>44.4%</b></td><td class="num" style="color:#718096;">50.7%</td><td class="num"><span class="badge-down">-6.3%p</span></td></tr>
+      <tr><td>T-Shirt</td><td class="num">1,671</td><td class="num"><span class="badge-up">70%</span></td><td class="num"><b>31.7%</b></td><td class="num" style="color:#718096;">41.1%</td><td class="num"><span class="badge-down">-9.4%p</span></td></tr>
+      <tr><td>Polo</td><td class="num">1,335</td><td class="num"><span class="badge-down">40%</span></td><td class="num"><b>58.7%</b></td><td class="num" style="color:#718096;">58.0%</td><td class="num"><span class="badge-up">+0.7%p</span></td></tr>
+      <tr style="font-weight:bold;background:#f0f4f8;"><td>Total</td><td class="num">14,498</td><td class="num"><span class="badge-down">48%</span></td><td class="num">39.3%</td><td class="num" style="color:#718096;">34.2%</td><td class="num"><span class="badge-up">+5.1%p</span></td></tr>
     </table>
-    <div style="font-size:6.5px;color:#718096;margin-top:3px;">전체 판매율 +1.4%p 개선 — Track Jacket·Track Pant 대폭 향상(+8%p 이상). 단, 주문량 YoY 48%로 전체 볼륨 축소 중 · Shorts만 주문 YoY 122%로 전년 초과</div>
+    <div style="font-size:6.5px;color:#718096;margin-top:3px;">전체 판매율 +5.1%p 개선 — Track Pant +18.1%p·Track Jacket +15.7%p 대폭 향상. 단, 주문량 YoY 48%로 전체 볼륨 축소 중 · T-Shirt·Shorts는 판매율 하락(주문 급증 반영)</div>
   </div>
 
   <div class="footer">
-    F&amp;F · STO Brand Monthly Report · 2026년 6월 · 비교기준: 전년동월(YoY) · Confidential · 단위: K USD / 재고: K USD
+    F&amp;F · STO Brand Monthly Report · 2026년 7월 · 비교기준: 전년동월(YoY) · Confidential · 단위: K USD / 재고: K USD
   </div>
 </div>
 
@@ -560,12 +589,12 @@ Chart.defaults.devicePixelRatio=Math.max(window.devicePixelRatio||1,2.5);
 
 (function(){
   const items=[
-    {name:'Track Jacket', curr:19.5, prev:11.2},
-    {name:'Track Pant',   curr:21.0, prev:12.8},
-    {name:'Shorts',       curr:20.7, prev:26.8},
-    {name:'T-Shirt',      curr:15.0, prev:21.7},
-    {name:'Polo',         curr:33.2, prev:36.6},
-    {name:'Total',        curr:19.2, prev:17.8},
+    {name:'Track Jacket', curr:39.0, prev:23.3},
+    {name:'Track Pant',   curr:42.9, prev:24.8},
+    {name:'Shorts',       curr:44.4, prev:50.7},
+    {name:'T-Shirt',      curr:31.7, prev:41.1},
+    {name:'Polo',         curr:58.7, prev:58.0},
+    {name:'Total',        curr:39.3, prev:34.2},
   ];
   new Chart(document.getElementById('chartSalesRate'),{
     type:'bar',
@@ -579,17 +608,17 @@ Chart.defaults.devicePixelRatio=Math.max(window.devicePixelRatio||1,2.5);
     options:{indexAxis:'y',responsive:true,maintainAspectRatio:true,
       plugins:{legend:{position:'bottom',labels:{font:{size:8},boxWidth:10,padding:6}},
         tooltip:{callbacks:{label:ctx=>` ${ctx.raw.toFixed(1)}%`}}},
-      scales:{x:{grid:{color:'#edf2f7'},max:40,ticks:{font:{size:7.5},callback:v=>v+'%'}},y:{grid:{display:false},ticks:{font:{size:7.5}}}}}
+      scales:{x:{grid:{color:'#edf2f7'},max:70,ticks:{font:{size:7.5},callback:v=>v+'%'}},y:{grid:{display:false},ticks:{font:{size:7.5}}}}}
   });
 })();
 
 (function(){
   const items=[
-    {name:'Track Jacket', curr:5.3, prev:5.5},
-    {name:'Track Pant',   curr:5.9, prev:5.5},
-    {name:'Hoodie',       curr:4.8, prev:4.8},
-    {name:'T-Shirt',      curr:5.6, prev:5.8},
-    {name:'Short',        curr:5.5, prev:5.1},
+    {name:'Track Jacket', curr:5.5, prev:4.9},
+    {name:'Track Pant',   curr:5.3, prev:5.2},
+    {name:'Polo',         curr:4.8, prev:4.9},
+    {name:'T-Shirt',      curr:5.2, prev:5.8},
+    {name:'Short',        curr:5.0, prev:4.7},
   ];
   new Chart(document.getElementById('chartMU'),{
     type:'bar',
